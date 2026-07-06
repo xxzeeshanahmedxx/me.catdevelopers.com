@@ -1,16 +1,4 @@
-interface Event {
-  year: string;
-  title: string;
-  description: string;
-}
-
-const events: Event[] = [
-  { year: '2009', title: 'Born', description: '15th June — Lahore, Pakistan' },
-  { year: '2019', title: 'Started Coding', description: 'First lines of code, discovered the passion' },
-  { year: '2023', title: 'First Project', description: 'Built and launched first real project' },
-  { year: '2025', title: 'Cat Developers', description: 'Founded Cat Developers — building for Pakistani businesses' },
-  { year: '2026', title: 'Today', description: 'Still building, still learning. 16 and counting.' },
-];
+import { events } from '../data/timeline';
 
 export default function Timeline() {
   return (

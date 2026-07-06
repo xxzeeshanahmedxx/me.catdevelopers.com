@@ -5,7 +5,7 @@ export default function Hero() {
 
       <div className="max-w-2xl mx-auto text-center relative z-10 animate-fade-up">
         <div className="w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-6 rounded-full overflow-hidden ring-2 ring-accent/30 ring-offset-2 ring-offset-bg shadow-lg shadow-accent/20">
-          <img src="/zeeshan.webp" alt="Zeeshan Ahmed" className="w-full h-full object-cover" />
+          <img src="/zeeshan.jpg" alt="Zeeshan Ahmed" className="w-full h-full object-cover" />
         </div>
 
         <h1 className="font-display text-[clamp(2rem,5vw,3.5rem)] font-bold leading-[1.05] tracking-tight mb-2">

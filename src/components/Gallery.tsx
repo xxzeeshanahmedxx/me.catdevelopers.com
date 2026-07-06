@@ -7,9 +7,11 @@ interface Photo {
 }
 
 const photos: Photo[] = [
-  { src: '/gallery/photo1.webp', year: '2024', caption: 'Some memory' },
-  { src: '/gallery/photo2.webp', year: '2025', caption: 'Another moment' },
-  { src: '/gallery/photo3.webp', year: '2026', caption: 'Recent times' },
+  { src: '/gallery/zeeshan-1.0.jpg', year: '2024', caption: 'ZeeshanAhmed 1.0' },
+  { src: '/gallery/zeeshan-1.1.jpg', year: '2024', caption: 'ZeeshanAhmed 1.1' },
+  { src: '/gallery/zeeshan-1.2.jpg', year: '2024', caption: 'ZeeshanAhmed 1.2' },
+  { src: '/gallery/zeeshan-2.0.jpg', year: '2025', caption: 'ZeeshanAhmed 2.0' },
+  { src: '/gallery/zeeshan-3.0.jpg', year: '2026', caption: 'ZeeshanAhmed 3.0' },
 ];
 
 export default function Gallery() {
